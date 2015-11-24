@@ -1,0 +1,6 @@
+<apex:page controller="ContactController">
+<!-- Begin Default Content REMOVE THIS -->
+<h1>Congratulations</h1>
+This is Contact Page
+<!-- End Default Content REMOVE THIS -->
+</apex:page>

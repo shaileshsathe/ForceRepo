@@ -1,0 +1,89 @@
+<apex:page >
+<div>
+<h1>Ticket Booking Window</h1>
+</div>
+<table>
+	<tr><td></td><td></td><td>Seats</td><td></td><td></td><td></td></tr>
+		<tr>
+			<td><input type="button" id="1" value="   1   "  name="btn"  style="background-color:#FFFFFF;" onclick="booking('1')" placeholder="100"/> 
+			</td>
+			<td><input type="button" id="2" value="   2   " name="btn" style="background-color:#FFFFFF;" onclick="booking('2')" placeholder="100"/>
+			</td>
+			<td><input type="button" id="3" value="   3   " name="btn" style="background-color:#FFFFFF;" onclick="booking('3')" placeholder="100"/>
+			</td>
+			<td><input type="button" id="4" value="   4   " name="btn" style="background-color:#FFFFFF;" onclick="booking('4')" placeholder="100"/>
+			</td>
+			<td><input type="button" id="5" value="   5   " name="btn" style="background-color:#FFFFFF;" onclick="booking('5')" placeholder="100"/>
+			</td>
+			<td><input type="button" id="6" value="   6   " name="btn" style="background-color:#FFFFFF;" onclick="booking('6')" placeholder="100"/>
+			</td>
+			<td>100 Rs.
+			</td>
+		</tr>
+		<tr>
+			<td><input type="button" id="7" value="   7   "  name="btn" style="background-color:#FFFFFF;" onclick="booking('7')" placeholder="100"/> 
+			</td>
+			<td><input type="button" id="8" value="   8   "  name="btn" style="background-color:#FFFFFF;" onclick="booking('8')" placeholder="100"/> 
+			</td>
+			<td><input type="button" id="9" value="   9   "  name="btn" style="background-color:#FFFFFF;" onclick="booking('9')" placeholder="100"/> 
+			</td>
+			<td><input type="button" id="10" value="  10  "  name="btn" style="background-color:#FFFFFF;" onclick="booking('10')" placeholder="100"/> 
+			</td>
+			<td><input type="button" id="11" value="  11  "  name="btn" style="background-color:#FFFFFF;" onclick="booking('11')" placeholder="100"/> 
+			</td>
+			<td><input type="button" id="12" value="  12  "  name="btn" style="background-color:#FFFFFF;" onclick="booking('12')" placeholder="100"/> 
+			</td>
+			<td>100 Rs.
+			</td>
+		</tr>
+		<tr>
+			<td><input type="button" id="13" value="  13  "  name="btn" style="background-color:#FFFFFF;" onclick="booking('13')" placeholder="200"/> 
+			</td>
+			<td><input type="button" id="14" value="  14  "  name="btn" style="background-color:#FFFFFF;"  onclick="booking('14')" placeholder="200"/> 
+			</td>
+			<td><input type="button" id="15" value="  15  "  name="btn" style="background-color:#FFFFFF;" onclick="booking('15')" placeholder="200"/> 
+			</td>
+			<td><input type="button" id="16" value="  16  "  name="btn" style="background-color:#FFFFFF;" onclick="booking('16')" placeholder="200"/> 
+			</td>
+			<td><input type="button" id="17" value="  17  "  name="btn" style="background-color:#FFFFFF;" onclick="booking('17')" placeholder="200"/> 
+			</td>
+			<td><input type="button" id="18" value="  18  "  name="btn" style="background-color:#FFFFFF;" onclick="booking('18')" placeholder="200"/> 
+			</td>
+			<td>200 Rs.
+			</td>
+		</tr>
+		<tr>
+			<td><input type="button" id="19" value="  19  "  name="btn" style="background-color:#FFFFFF;" onclick="booking('19')" placeholder="200"/> 
+			</td>
+			<td><input type="button" id="20" value="  20  "  name="btn" style="background-color:#FFFFFF;" onclick="booking('20')" placeholder="200"/> 
+			</td>
+			<td><input type="button" id="21" value="  21  "  name="btn" style="background-color:#FFFFFF;" onclick="booking('21')" placeholder="200"/> 
+			</td>
+			<td><input type="button" id="22" value="  22  "  name="btn" style="background-color:#FFFFFF;" onclick="booking('22')" placeholder="200"/> 
+			</td>
+			<td><input type="button" id="23" value="  23  "  name="btn" style="background-color:#FFFFFF;" onclick="booking('23')" placeholder="200"/> 
+			</td>
+			<td><input type="button" id="24" value="  24  "  name="btn" style="background-color:#FFFFFF;" onclick="booking('24')" placeholder="200"/> 
+			</td>
+			<td>200 Rs.
+			</td>
+		</tr>
+		<tr>
+			<td><input type="button" id="25" value="  25  "  name="btn" style="background-color:#FFFFFF;" onclick="booking('25')" placeholder="300"/> 
+			</td>
+			<td><input type="button" id="26" value="  26  "  name="btn" style="background-color:#FFFFFF;" onclick="booking('26')" placeholder="300"/> 
+			</td>
+			<td><input type="button" id="27" value="  27  "  name="btn" style="background-color:#FFFFFF;" onclick="booking('27')" placeholder="300"/> 
+			</td>
+			<td><input type="button" id="28" value="  28  "  name="btn" style="background-color:#FFFFFF;" onclick="booking('28')" placeholder="300"/> 
+			</td>
+			<td><input type="button" id="29" value="  29  "  name="btn" style="background-color:#FFFFFF;" onclick="booking('29')" placeholder="300"/> 
+			</td>
+			<td><input type="button" id="30" value="  30  "  name="btn" style="background-color:#FFFFFF;" onclick="booking('30')" placeholder="300"/> 
+			</td>
+			<td>300 Rs.
+			</td>
+		</tr>
+		
+	</table>
+</apex:page>

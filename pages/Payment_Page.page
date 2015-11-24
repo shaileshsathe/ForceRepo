@@ -1,0 +1,43 @@
+<apex:page >
+
+<h1>Payment Details</h1>
+<center>
+					<table>
+						<tr>
+							<td>
+								<h2>Make a Payment</h2>
+							</td>
+						</tr>
+						<tr>
+							<td>Enter  16 digit Credit Card Numbers </td>
+							<td><input type="password" id="txtcardNumber" placeholder="Master/Visa"/></td>
+						</tr>
+						<tr>
+							<td>CVV2 Number</td>
+							<td><input type="text" id="txtcvvNumber" placeholder="3 Digits"/></td>
+						</tr>
+						<tr>
+							<td>Expiry Date</td>
+							<td>Month <input type="text" id="txtMonth" placeholder="2 Digits"/> / </td>
+							<td>Year <input type="text" id="txtYear" placeholder="2 Digits"/></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>
+								<div>
+									<input type="button" value="Make a Payment" id="PaymentBtn"  />
+								</div>
+							</td>
+							<td>
+								<div>
+									<input type="button" value="Cancel" id="cancelBtn"/>
+								</div>
+							</td>
+						</tr>
+					</table>
+				</center>
+
+</apex:page>
